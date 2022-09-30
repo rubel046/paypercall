@@ -60,7 +60,7 @@
                             <img src="{{asset('assets/images/gr1.jpg')}}" alt="">
                         </div>
                         <h4>This area is for title it can be gallery, blog or anything!</h4>
-                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+{{--                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>--}}
                     </div>
 
                     <div class="item">
@@ -70,7 +70,7 @@
                             <img src="{{asset('assets/images/gr2.jpg')}}" alt="">
                         </div>
                         <h4>This area is for title it can be gallery, blog or anything!</h4>
-                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+{{--                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>--}}
                     </div>
 
 
@@ -81,7 +81,7 @@
                             <img src="{{asset('assets/images/gr1.jpg')}}" alt="">
                         </div>
                         <h4>This area is for title it can be gallery, blog or anything!</h4>
-                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+{{--                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>--}}
                     </div>
 
 
@@ -92,7 +92,7 @@
                             <img src="{{asset('assets/images/gr2.jpg')}}" alt="">
                         </div>
                         <h4>This area is for title it can be gallery, blog or anything!</h4>
-                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+{{--                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>--}}
                     </div>
 
 
@@ -103,27 +103,81 @@
                             <img src="{{asset('assets/images/gr1.jpg')}}" alt="">
                         </div>
                         <h4>This area is for title it can be gallery, blog or anything!</h4>
-                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+{{--                        <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>--}}
                     </div>
-
-
                 </div>
             </div>
 
             <div class="contentsection-3">
                 <img src="{{asset('assets/images/ft1.jpg')}}" alt="" class="featured"/>
                 <div class="details">
-                    <h2>Another Content Section</h2>
+                    <h2>LAUNDRY SERVICES</h2>
                     <p>
-                        Nullam id auctor elit. Donec non eros ultricies, porta neque at, malesuada nibh. Duis efficitur,
-                        tortor sit amet sodales egestas, libero elit laoreet nunc, ut euismod nunc mauris sed risus. Sed
-                        feugiat velit massa.
+                        Cloth Washers and Cloth Dryers .
+                        With more than 10 years of experience, our talented and personable team of technicians works to
+                        offer best in class service to each customer.
                     </p>
+                    <b>Why You Should Consider a Laundry Service for Your Needs?</b>
+
                     <ul>
-                        <li>Donec at felis vulputate, lacinia orci eget, porttitor velit.</li>
-                        <li>Etiam sed enim non lectus posuere lacinia.</li>
-                        <li>Curabitur eu leo pulvinar, condimentum massa sed, cursus ligula.</li>
+                        <li>Laundry services save money.</li>
+                        <li>Laundry services save time.</li>
+                        <li>Laundry services use high quality cleaning materials.</li>
                     </ul>
+                    <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+                </div>
+            </div>
+
+            <div class="contentsection-3"
+                 style="width: 100%; margin: 50px 0 0 0; padding: 50px 0 50px 0; border-top: 1px solid #ccc;">
+                <img src="{{asset('assets/images/kitchen-service.jpg')}}" alt="" class="featured"/>
+                <div class="details">
+                    <h2>KITCHEN SERVICES</h2>
+                    <p>
+                        Refrigerators, Freegers, Ice Machines, Cooker Stoves, Ovens, Microwaves, Vent hoods,
+                        Dishwashers,
+                        Garbage Disposals. If you are looking for a reliable refrigerator repair service, look no
+                        further.
+                        We provide our customers with fast, reliable and affordable refrigerator repair for residential
+                        home repair.
+                    </p>
+                    <b>Why You Should Consider a Kitchen Service for Your Needs?</b>
+
+                    <ul>
+                        <li>Coming Up With a Workable Design</li>
+                        <li>Tackling Unexpected Issues</li>
+                        <li>Getting Any Necessary Permits</li>
+                    </ul>
+                    <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+                </div>
+            </div>
+
+            <div class="contentsection-3"
+                 style="width: 100%; margin: 50px 0 0 0; padding: 50px 0 50px 0; border-top: 1px solid #ccc;">
+                <img src="{{asset('assets/images/commercial-service.jpg')}}" alt="" class="featured"/>
+                <div class="details">
+                    <h2>COMMERCIAL SERVICES</h2>
+                    <p>
+                        We serve and repair most makes and models of  Refrigerators, Freegers, Salad Bars, Sandwich coolers, wine coolers, Ice machines, coin operated washers, Dryers, Beer cooler, Kegerators, Water Heater.
+                        Our customer base is over expanding due to the numerous customer referals and our team is strategically placed throught the greater Los Angeles.
+                    </p>
+
+                    <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
+                </div>
+            </div>
+
+            <div class="contentsection-3"
+                 style="width: 100%; margin: 50px 0 0 0; padding: 50px 0 50px 0; border-top: 1px solid #ccc;">
+                <img src="{{asset('assets/images/multi-service.webp')}}" alt="" class="featured" style="max-height: 350px"/>
+                <div class="details">
+                    <h2>MULTI SERVICES</h2>
+                    <p>
+                        At Multi Appliance Repair, we are dedicated to getting your home appliances back and running
+                        within the shortest time possible. We provide the best customer service and appliance repair all
+                        over USA. Your home or commercial unit is complete and comfortable only when all your appliances
+                        are in their best condition or are working as you would want them.
+                    </p>
+
                     <a href="" class="button">Read More &nbsp; <span class="fa fa-angle-right"></span></a>
                 </div>
             </div>

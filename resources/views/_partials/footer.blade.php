@@ -8,19 +8,20 @@
 
             <div class="widget links">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="{{route('home')}}">Home</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="{{route('aboutUs')}}">About Us</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="{{route('contactUs')}}">Contact Us</a></li>
+                    <li><a href=""></a></li>
                 </ul>
             </div>
 
             <div class="widget">
                 <p>Contact Us:</p>
-                <p><span class="fa fa-phone"></span> Phone: &nbsp; <a href="tel:{{@$contact->title}}" target="_self"
-                                                                      style="text-decoration: none;color: inherit;">{{@$contact->title}}</a>
+                <p><span class="fa fa-phone"></span> Phone: &nbsp;
+                    <a href="tel:{{@$contact->title}}" target="_self" style="text-decoration: none;color: inherit;">{{@$contact->title}}</a>
                 </p>
                 <p><span class="fa fa-envelope"></span> Email: &nbsp; info@yourwebsite.com</p>
             </div>

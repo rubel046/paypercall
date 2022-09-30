@@ -100,3 +100,8 @@ footer .footerbottom{
 footer .footerbottom .copyright, footer .footerbottom .socialmedia p{
 	color: rgba(0,0,0,0.5);
 }
+
+nav ul.submenu li.active a {
+    background: #d6e9c6;
+    color: #fff;
+}

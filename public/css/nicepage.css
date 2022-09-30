@@ -1,0 +1,174 @@
+
+
+.u-grey-10, .u-body.u-grey-10, section.u-grey-10:before, .u-grey-10 > .u-container-layout:before, .u-grey-10 > .u-inner-container-layout:before, .u-grey-10.u-sidenav:before, .u-container-layout.u-container-layout.u-grey-10:before, .u-table-alt-grey-10 tr:nth-child(even) {
+    color: #111111;
+    background-color: #e5e5e5;
+}
+
+.u-section-1 .u-shape-1 {
+    width: 744px;
+    height: 1071px;
+    margin: 85px auto 0 calc(((100% - 1140px) / 2) + 198px);
+}
+
+.u-white, .u-body.u-white, section.u-white:before, .u-white > .u-container-layout:before, .u-white > .u-inner-container-layout:before, .u-white.u-sidenav:before, .u-container-layout.u-container-layout.u-white:before, .u-table-alt-white tr:nth-child(even) {
+    color: #111111;
+    background-color: #ffffff;
+}
+
+.u-shape {
+    position: relative;
+}
+
+.u-image-circle.u-image {
+    border-radius: 50% !important;
+}
+
+.u-overlap.u-overlap-transparent .u-header, .u-image, .u-gradient {
+    color: #111111;
+}
+
+.u-image, .u-background-effect-image, .u-video-poster {
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.u-group {
+    display: flex;
+}
+
+.u-section-1 .u-container-layout-1 {
+    padding: 30px;
+}
+
+.u-valign-middle {
+    justify-content: center;
+}
+
+.u-valign-middle, .u-valign-top, .u-valign-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.u-container-layout {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+}
+
+.u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.u-group .u-container-layout > * {
+    position: relative;
+}
+
+.u-text {
+    word-wrap: break-word;
+    position: relative;
+}
+
+.u-valign-middle > *, .u-valign-top > *, .u-valign-bottom > * {
+    flex-shrink: 0;
+}
+
+.u-inner-container-layout, .u-inner-container-layout > *, .u-container-layout > * {
+    position: relative;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto,sans-serif;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: inherit;
+}
+
+.u-section-1 .u-text-2 {
+    margin: 24px 41px 0 0;
+}
+
+
+p:not(.u-text-variant) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.u-list:not(.u-repeater), .u-blog:not(.u-repeater), .u-products:not(.u-repeater) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.u-list:not(.u-repeater) .u-repeater, .u-blog:not(.u-repeater) .u-repeater, .u-products:not(.u-repeater) .u-repeater {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
+    min-height: 382px;
+    grid-gap: 20px;
+}
+
+.u-repeater {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33333333%);
+}
+
+
+.u-palette-1-light-1, .u-body.u-palette-1-light-1, section.u-palette-1-light-1:before, .u-palette-1-light-1 > .u-container-layout:before, .u-palette-1-light-1 > .u-inner-container-layout:before, .u-palette-1-light-1.u-sidenav:before, .u-container-layout.u-container-layout.u-palette-1-light-1:before, .u-table-alt-palette-1-light-1 tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #77aad9;
+}
+
+.u-repeater-item {
+    display: flex;
+    position: relative;
+}
+
+.u-align-left {
+    text-align: left;
+}
+
+.u-section-1 .u-container-layout-2 {
+    padding: 30px;
+}
+
+.u-valign-top {
+    justify-content: flex-start;
+}
+
+.u-palette-1-light-3, .u-body.u-palette-1-light-3, section.u-palette-1-light-3:before, .u-palette-1-light-3 > .u-container-layout:before, .u-palette-1-light-3 > .u-inner-container-layout:before, .u-palette-1-light-3.u-sidenav:before, .u-container-layout.u-container-layout.u-palette-1-light-3:before, .u-table-alt-palette-1-light-3 tr:nth-child(even) {
+    color: #111111;
+    background-color: #e9f2fa;
+}
+
+.u-palette-1-base, .u-body.u-palette-1-base, section.u-palette-1-base:before, .u-palette-1-base > .u-container-layout:before, .u-palette-1-base > .u-inner-container-layout:before, .u-palette-1-base.u-sidenav:before, .u-container-layout.u-container-layout.u-palette-1-base:before, .u-table-alt-palette-1-base tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #478ac9;
+}

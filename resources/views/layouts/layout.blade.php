@@ -16,6 +16,8 @@
     <link href="{{asset('css/style-responsive.css')}}" rel="stylesheet" type="text/css" />
 
 
+    @yield('styles')
+
     <link href="{{asset('css/font-awesome.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/linear.css')}}" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="{{asset('assets/images/logo-white.png')}}"><!-- Major Browsers -->
